@@ -1,0 +1,1 @@
+{"nodes": [{"id": "file:public/vercel.svg", "label": "vercel.svg", "type": "File", "description": "SVG logo of Vercel - stylized 'V' letter mark with geometric triangle design.", "source_file": "public/vercel.svg", "source_location": "vision", "confidence": 1.0, "_origin": "semantic"}], "edges": [], "hyperedges": []}

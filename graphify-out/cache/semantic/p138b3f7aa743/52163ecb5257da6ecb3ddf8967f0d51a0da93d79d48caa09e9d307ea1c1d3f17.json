@@ -1,0 +1,1 @@
+{"nodes": [{"id": "file:public/file.svg", "label": "file.svg", "type": "File", "description": "SVG icon depicting a document/file with folded corner and lines representing text content.", "source_file": "public/file.svg", "source_location": "vision", "confidence": 1.0, "_origin": "semantic"}], "edges": [], "hyperedges": []}

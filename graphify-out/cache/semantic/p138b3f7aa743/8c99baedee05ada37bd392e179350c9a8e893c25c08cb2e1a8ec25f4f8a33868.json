@@ -1,0 +1,1 @@
+{"nodes": [{"id": "file:public/globe.svg", "label": "globe.svg", "type": "File", "description": "SVG icon depicting a globe/world with meridian lines and latitude circles.", "source_file": "public/globe.svg", "source_location": "vision", "confidence": 1.0, "_origin": "semantic"}], "edges": [], "hyperedges": []}
