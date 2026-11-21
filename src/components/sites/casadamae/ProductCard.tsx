@@ -154,7 +154,7 @@ export function ProductCard({ product, variant = "default", showQuickBuy = false
             asChild
             aria-label={`Comprar ${product.name}`}
           >
-            <a href={product.href}>Comprar Agora</a>
+            <Link href={product.href}>Comprar Agora</Link>
           </Button>
         )}
       </div>

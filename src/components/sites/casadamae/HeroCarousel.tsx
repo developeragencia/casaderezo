@@ -177,9 +177,8 @@ export function HeroCarousel() {
                   <Button
                     size="lg"
                     className="bg-white text-text-primary hover:bg-neutral-100 font-semibold px-8 py-3 animate-slide-up stagger-5"
-                    asChild
                   >
-                    <a href={slide.href}>Ver Coleção</a>
+                    Ver Coleção
                   </Button>
                 </div>
               </div>
