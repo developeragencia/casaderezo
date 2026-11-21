@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "NEXT_TELEMETRY_DISABLED=1 next build --webpack",
+    "build": "RAYON_NUM_THREADS=1 UV_THREADPOOL_SIZE=1 NEXT_TELEMETRY_DISABLED=1 next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },

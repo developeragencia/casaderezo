@@ -71,7 +71,13 @@ export function SaintSection({ saint, products, showViewAll = true }: SaintSecti
 }
 
 // Sample data for the three featured saints
-export const featuredSaints = [
+export const featuredSaints: {
+  name: string;
+  slug: string;
+  image: string;
+  description: string;
+  products: SaintProduct[];
+}[] = [
   {
     name: "Nossa Senhora de Guadalupe",
     slug: "nossa-senhora-guadalupe",
@@ -93,7 +99,7 @@ export const featuredSaints = [
     description: "Velas, imagens, adornos e livros de ofício para devoção à Imaculada Conceição",
     products: [
       { id: "ic1", name: "Vela Devoção Imaculada Conceição", image: "/images/products/imaculada-vela.jpg", price: 18.90, pixPrice: 17.95, href: "/produto/imaculada-vela" },
-      { id: "ic2", name: "Imagem Resina Imaculada Conceição 14.5 cm", image: "/images/products/imaculada-14cm.jpg", price: 52.90, originalPrice: 69.90, pixPrice: 50.25, installments: { count: 2, value: 26.45 }, href: "/produto/imaculada-14cm", badge: "BLACK FRIDAY", badgeVariant: "destructive" },
+      { id: "ic2", name: "Imagem Resina Imaculada Conceição 14.5 cm", image: "/images/products/imaculada-14cm.jpg", price: 52.90, originalPrice: 69.90, pixPrice: 50.25, installments: { count: 2, value: 26.45 }, href: "/produto/imaculada-14cm", badge: "BLACK FRIDAY", badgeVariant: "destructive" as const },
       { id: "ic3", name: "Imagem Resina Imaculada Conceição 11 cm", image: "/images/products/imaculada-11cm.jpg", price: 38.90, pixPrice: 36.95, href: "/produto/imaculada-11cm" },
       { id: "ic4", name: "Adorno MDF Imaculada Conceição", image: "/images/products/imaculada-adornomdf.jpg", price: 19.90, pixPrice: 18.90, href: "/produto/imaculada-adornomdf" },
       { id: "ic5", name: "Porta Vela Imaculada Conceição", image: "/images/products/imaculada-portavela.jpg", price: 28.90, pixPrice: 27.45, href: "/produto/imaculada-portavela" },
