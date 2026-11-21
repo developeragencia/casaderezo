@@ -1,5 +1,6 @@
 import {
   HeroCarousel,
+  BenefitsBar,
   CategoryGrid,
   SaintSection,
   LaunchSection,
@@ -18,6 +19,9 @@ export default function Home() {
     <>
       {/* Hero Carousel */}
       <HeroCarousel />
+
+      {/* Trust & Benefits Bar */}
+      <BenefitsBar />
 
       {/* Category Grid */}
       <CategoryGrid />

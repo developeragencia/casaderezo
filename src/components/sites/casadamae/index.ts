@@ -1,4 +1,5 @@
 export * from "./HeroCarousel";
+export * from "./BenefitsBar";
 export * from "./CategoryGrid";
 export * from "./SaintSection";
 export * from "./LaunchSection";

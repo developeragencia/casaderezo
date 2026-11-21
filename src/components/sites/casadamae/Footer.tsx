@@ -86,39 +86,38 @@ export function Footer() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             {/* Brand */}
             <div className="md:col-span-2 lg:col-span-1">
-              <Link href="/" className="flex items-center gap-3 mb-4" aria-label="Casa da Mãe - Início">
-                <div className="size-10 rounded-lg bg-primary flex items-center justify-center">
-                  <span className="text-white font-display font-bold text-xl">M</span>
+              <Link href="/" className="flex items-center gap-3 mb-4" aria-label="Casa de Rezo - Início">
+                <div className="size-10 rounded-xl bg-gradient-to-br from-amber-600 to-amber-800 flex items-center justify-center text-white shadow-md">
+                  <svg className="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2v20M7 7h10" />
+                  </svg>
                 </div>
                 <div>
-                  <span className="font-display font-bold text-xl text-white">Casa da Mãe</span>
-                  <p className="font-sans text-xs text-neutral-400 -mt-1">Artigos Religiosos — Atacado e Varejo</p>
+                  <span className="font-serif font-bold text-xl text-white">Casa de Rezo</span>
+                  <p className="font-sans text-xs text-amber-500 font-medium -mt-0.5">Artigos Sacros & Religiosos</p>
                 </div>
               </Link>
               <p className="text-neutral-400 text-sm mb-6 max-w-xs">
-                Mais de 20 anos de tradição na fabricação e venda de artigos religiosos. Qualidade, fé e devoção em cada peça.
+                Mais de 20 anos de tradição em artigos sacros e religiosos. Qualidade, fé e devoção para sua paróquia e seu lar.
               </p>
               <div className="flex items-center gap-2 text-sm text-neutral-400 mb-2">
-                <MapPin className="size-4 flex-shrink-0" aria-hidden="true" />
-                <span>Roseira/SP — Aparecida/SP</span>
+                <MapPin className="size-4 flex-shrink-0 text-amber-500" aria-hidden="true" />
+                <span>Brasil — Atendimento Nacional</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-neutral-400 mb-2">
-                <Phone className="size-4 flex-shrink-0" aria-hidden="true" />
-                <a href="tel:+551236463440" className="hover:text-primary transition-colors">(12) 3646-3440</a>
+                <Phone className="size-4 flex-shrink-0 text-amber-500" aria-hidden="true" />
+                <a href="https://wa.me/5512997750133" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">(12) 99775-0133 (WhatsApp)</a>
               </div>
               <div className="flex items-center gap-2 text-sm text-neutral-400 mb-4">
-                <Mail className="size-4 flex-shrink-0" aria-hidden="true" />
-                <a href="mailto:ecommerce@gruposacrarium.com.br" className="hover:text-primary transition-colors">ecommerce@gruposacrarium.com.br</a>
+                <Mail className="size-4 flex-shrink-0 text-amber-500" aria-hidden="true" />
+                <a href="mailto:contato@casadorezo.com.br" className="hover:text-amber-400 transition-colors">contato@casadorezo.com.br</a>
               </div>
               <div className="flex items-center gap-4">
-                <a href="https://facebook.com/casadamae" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="Facebook">
-                  <FacebookIcon className="size-5" />
-                </a>
-                <a href="https://instagram.com/casadamae" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="Instagram">
+                <a href="https://instagram.com/casadorezo" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-amber-600 hover:text-white transition-colors" aria-label="Instagram">
                   <InstagramIcon className="size-5" />
                 </a>
-                <a href="https://youtube.com/casadamae" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="YouTube">
-                  <YoutubeIcon className="size-5" />
+                <a href="https://facebook.com/casadorezo" target="_blank" rel="noopener noreferrer" className="size-10 rounded-full bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-amber-600 hover:text-white transition-colors" aria-label="Facebook">
+                  <FacebookIcon className="size-5" />
                 </a>
               </div>
             </div>
@@ -228,8 +227,8 @@ export function Footer() {
       <div className="bg-neutral-950 border-t border-neutral-800 py-6">
         <div className="container">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-400">
-            <p>© {new Date().getFullYear()} Casa da Mãe. Todos os direitos reservados.</p>
-            <p>Desenvolvido com ❤️ para levar fé e devoção até você.</p>
+            <p>© {new Date().getFullYear()} Casa de Rezo — Artigos Sacros & Religiosos. Todos os direitos reservados.</p>
+            <p>Feito para levar a fé e a tradição cristã até o seu coração.</p>
           </div>
         </div>
       </div>

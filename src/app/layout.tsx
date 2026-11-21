@@ -21,39 +21,36 @@ const marcellus = Marcellus({
 export const metadata: Metadata = {
   metadataBase: new URL("https://casadorezo.com.br"),
   title: {
-    default: "Casa da Mãe — Artigos Religiosos | Atacado e Varejo",
-    template: "%s | Casa da Mãe",
+    default: "Casa de Rezo — Artigos Sacros & Religiosos | Atacado e Varejo",
+    template: "%s | Casa de Rezo",
   },
-  description: "Casa da Mãe - Mais de 20 anos de tradição em artigos religiosos. Imagens, velas, terços, crucifixos, adornos e muito mais. Atacado a partir de R$ 500. Frete grátis acima de R$ 500. 5% off no Pix/boleto.",
-  keywords: ["artigos religiosos", "imagens sacras", "velas", "terços", "crucifixos", "adornos", "atacado religioso", "casa da mae", "aparecida"],
-  authors: [{ name: "Casa da Mãe" }],
-  creator: "Casa da Mãe",
-  publisher: "Casa da Mãe",
+  description: "Casa de Rezo - Mais de 20 anos de tradição em artigos religiosos católicos. Imagens sacras, velas, terços, crucifixos, adornos e artigos litúrgicos. Atacado e varejo. 5% off no Pix.",
+  keywords: ["artigos religiosos", "imagens sacras", "velas", "terços", "crucifixos", "adornos", "atacado religioso", "casa de rezo", "liturgia católica"],
+  authors: [{ name: "Casa de Rezo" }],
+  creator: "Casa de Rezo",
+  publisher: "Casa de Rezo",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://www.casadamae.com.br",
-    siteName: "Casa da Mãe",
-    title: "Casa da Mãe — Artigos Religiosos | Atacado e Varejo",
-    description: "Mais de 20 anos de tradição em artigos religiosos. Imagens, velas, terços, crucifixos e adornos. Atacado e varejo.",
+    url: "https://casadorezo.com.br",
+    siteName: "Casa de Rezo",
+    title: "Casa de Rezo — Artigos Sacros & Religiosos | Atacado e Varejo",
+    description: "Mais de 20 anos de tradição em artigos religiosos. Imagens sacras, velas, terços, crucifixos e adornos. Atacado e varejo.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/banners/nossa-senhora.jpg",
         width: 1200,
         height: 630,
-        alt: "Casa da Mãe - Artigos Religiosos",
+        alt: "Casa de Rezo - Artigos Sacros & Religiosos",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Casa da Mãe — Artigos Religiosos",
-    description: "Mais de 20 anos de tradição em artigos religiosos.",
-    images: ["/images/og-image.jpg"],
-  },
-  verification: {
-    google: "google-site-verification-code",
+    title: "Casa de Rezo — Artigos Sacros & Religiosos",
+    description: "Tradição, fé e nobreza em artigos religiosos e sacros.",
+    images: ["/images/banners/nossa-senhora.jpg"],
   },
 };
 
@@ -77,14 +74,14 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://www.casadamae.com.br" />
+        <link rel="dns-prefetch" href="https://casadorezo.com.br" />
       </head>
       <body className="min-h-full flex flex-col bg-background text-text-primary">
         <a href="#main-content" className="skip-link">
           Pular para o conteúdo principal
         </a>
         <Header />
-        <main id="main-content" className="flex-1 pt-32 md:pt-28">
+        <main id="main-content" className="flex-1 pt-[104px] md:pt-[148px]">
           {children}
         </main>
         <Footer />
