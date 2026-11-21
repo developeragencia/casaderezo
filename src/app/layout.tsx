@@ -19,6 +19,7 @@ const marcellus = Marcellus({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://casadorezo.com.br"),
   title: {
     default: "Casa da Mãe — Artigos Religiosos | Atacado e Varejo",
     template: "%s | Casa da Mãe",

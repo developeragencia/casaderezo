@@ -11,7 +11,7 @@ import {
   ChristmasCountdown,
   BestsellersSection,
 } from "@/components/sites/casadamae";
-import { featuredSaints } from "@/components/sites/casadamae/SaintSection";
+import { featuredSaints } from "@/data/featuredSaints";
 
 export default function Home() {
   return (
